@@ -231,7 +231,10 @@
   min-width: 372px;
   padding: 0 0.3px;
 }
-
+.menu-button {
+  border-radius: 10%;
+  background-color: transparent;
+}
 .bt-u {
   color: var(--white);
   font-family: var(--font-family-poppins);
@@ -349,11 +352,9 @@
 }
 
 .vector {
-  margin-top: 46px;
-
   height: 32px;
-
   width: 32px;
+  background-image: url("/assets/img/vector-1.svg");
 }
 .wallet {
   background-size: 100% 100%;
@@ -376,12 +377,12 @@
 .home {
   height: 38px;
   width: 38px;
+  background-image: url("/assets/img/home.svg");
 }
 
 .vector-1 {
   height: 32px;
-
-  margin-top: 54px;
+  background-image: url("/assets/img/vector.svg");
   width: 32px;
 }
 
