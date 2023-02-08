@@ -1,20 +1,25 @@
 @import url("https://fonts.googleapis.com/css? family=Poppins:400, 700, 500, 400italic, 600");
 :root {
-  --black-2: rgba(0, 0, 0, 0.6);
-
-  --black: Orgba(0, 0, 0, 1);
-  --resolution-blue: Orgba(0, 41, 135, 1);
+  --black-2: rgba(0, 0, 0, 0.502);
+  --black-22: rgba(0, 0, 0, 0.6);
+  --black-5: rgba(0, 0, 0, 0.8);
+  --black-4: rgba(0, 0, 0, 0.902);
+  --black: rgba(0, 0, 0, 1);
+  --resolution-blue: rgba(0, 41, 135, 1);
+  --resolution-blue-2: rgba(0, 34, 152, 1);
   --havelock-blue: rgba(78, 139, 215, 1);
   --white: rgba(255, 255, 255, 1);
+  --lochmara: rgba(0, 133, 204, 1);
+  --alizarin-crimson: rgba(234, 47, 47, 1);
 
-  --font-size-xs: 14px;
-  --font-size-s: 16px;
+  --font-size-s: 17px;
+  --font-size-xs2: 14px;
 
   --font-size-m: 18px;
 
   --font-size-x1: 24px;
   --font-size-x1: 36px;
-
+  --font-size-s2: 16px;
   --font-size-m2: 20px;
   --font-size-l2: 28px;
 
@@ -24,13 +29,32 @@
 }
 
 /* Classes */
+.poppins-semi-bold-white-20px-22 {
+  color: var(--white);
 
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m2);
+
+  font-weight: 600;
+
+  font-style: normal;
+}
+.poppins-bold-black-18px {
+  color: var(--black);
+
+  font-family: var(--font-family-poppins);
+
+  font-size: var(--font-size-m);
+
+  font-weight: 700;
+  font-style: normal;
+}
 .poppins-medium-black-28px {
   color: var(--black);
 
   font-family: var(--font-family-poppins);
 
-  font-size: var (--font-size-12);
+  font-size: var(--font-size-12);
 
   font-weight: 500;
 
@@ -120,8 +144,15 @@
 
   font-style: italic;
 }
+.poppins-semi-bold-alizarin-crimson-20px {
+  color: var(--alizarin-crimson);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m2);
+  font-weight: 600;
+  font-style: normal;
+}
 .mua-truoc-tra-sau {
-  align-items: fix-start;
+  align-items: flex-start;
   background-color: var(--white);
   border: 1px none;
   display: flex;
@@ -178,7 +209,7 @@
 }
 
 .tm-hiu-thm-v-chng-ti-ti-y {
-  color: var(--black-2);
+  color: var(--black-22);
   font-weight: 400;
   left: 0;
   font-family: var(--font-family-poppins);
@@ -444,7 +475,7 @@
 }
 
 .overlap-group-1 {
-  height: 168px;
+  height: 160px;
   position: relative;
   width: 364px;
 }
@@ -512,7 +543,7 @@
   font-weight: 500;
 
   color: var(--black-2);
-  font-family: var (--font-family-poppins);
+  font-family: var(--font-family-poppins);
   height: 24px;
   letter-spacing: 0;
   line-height: normal;
@@ -631,9 +662,9 @@
 
 .phone {
   color: var(--resolution-blue);
-  font-family: var (--font-family-poppins);
+  font-family: var(--font-family-poppins);
 
-  font-size: var (--font-size-12);
+  font-size: var(--font-size-12);
   font-weight: 700;
 
   height: 34px;
@@ -649,7 +680,7 @@
 .dch-v-khch-hng-247 {
   color: var(--black);
   font-family: var(--font-family-poppins);
-  font-size: var (--font-size-xs);
+  font-size: var(--font-size-xs);
   font-weight: 500;
   height: 22px;
   letter-spacing: 0;
