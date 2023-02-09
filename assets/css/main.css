@@ -19,7 +19,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 144px;
   min-height: 732px;
   width: 561px;
 }
@@ -198,7 +197,7 @@
   justify-content: space-between;
   flex-direction: column;
   min-height: 306px;
-  width: 50px;
+  width: 100px;
 }
 
 .vector {
@@ -242,12 +241,10 @@
 .info-column {
   align-items: flex-start;
   display: flex;
-
+  float: left;
   flex-direction: column;
-
   height: 900px;
   padding: 24px 15px;
-
   width: 473px;
 }
 .overlap-group2 {
@@ -336,11 +333,8 @@
 
 .time-machine {
   height: 40px;
-  position: absolute;
-
+  position: relative;
   left: 0;
-
-  top: 120px;
   width: 40px;
 }
 .group-22 {
@@ -478,23 +472,13 @@
   padding: 0 7px;
 }
 .overlap-group3 {
-  align-items: flex-start;
-
-  align-self: flex-end;
-
   border-radius: 20px;
   box-shadow: 0px 4px 12px #00298766;
-
   background-color: var(--white);
   display: flex;
-  margin-top: 13px;
-
   gap: 3px;
-
   height: 92px;
-
   margin-right: 17px;
-
   min-width: 414px;
   padding: 5px 15px;
 }
@@ -517,17 +501,12 @@
 .phone {
   color: var(--resolution-blue);
   font-family: var(--font-family-poppins);
-
   font-size: var(--font-size-12);
   font-weight: 700;
-
   height: 34px;
-
   letter-spacing: 0;
-
   line-height: normal;
   margin-left: 2px;
-
   text-align: center;
   width: 208px;
 }
