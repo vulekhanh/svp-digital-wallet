@@ -204,14 +204,11 @@
 .vector {
   height: 32px;
   width: 32px;
-  background-image: url("/assets/img/vector-1.svg");
+  margin-top: 40px;
 }
 .wallet {
-  background-size: 100% 100%;
-  margin-top: 54px;
-
+  margin-top: 40px;
   height: 38px;
-
   width: 38px;
 }
 
@@ -227,13 +224,19 @@
 .home {
   height: 38px;
   width: 38px;
-  background-image: url("/assets/img/home.svg");
+  flex-grow: 1;
+  padding-top: 10%;
 }
 
 .vector-1 {
   height: 32px;
-  background-image: url("/assets/img/vector.svg");
+  margin-top: 40px;
   width: 32px;
+}
+.ticket {
+  height: 32px;
+  width: 32px;
+  margin-top: 40px;
 }
 
 .info-column {
