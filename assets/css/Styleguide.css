@@ -24,7 +24,23 @@
 
   --font-size-xx12: 50px;
 
-  --font-family-poppins: "Poppins";
+  
+
+  --black: #000000;
+    --resolution-blue: #002987;
+    --resolution-blue-2: #002298;
+    --star-dust: #a1a1a1;
+    --white: #ffffff;
+  
+    --font-size-l: 15px;
+    --font-size-m: 14px;
+    --font-size-s: 12px;
+    --font-size-xl: 16px;
+    --font-size-xxl: 18px;
+    --font-size-xxxl: 25px;
+    --font-size-xxxxl: 28px;
+  
+    --font-family-poppins: "Poppins", Helvetica;
 }
 
 /* Classes */
@@ -37,6 +53,27 @@
   font-weight: 600;
 
   font-style: normal;
+}
+.poppins-semi-bold-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+.poppins-semi-bold-star-dust-14px {
+  color: var(--star-dust);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+.poppins-semi-bold-resolution-blue-12px {
+  color: var(--resolution-blue);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
 }
 .poppins-bold-black-18px {
   color: var(--black);
