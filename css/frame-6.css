@@ -1,0 +1,130 @@
+/* screen - frame-6 */
+
+.frame-6 {
+  align-items: flex-start;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--black);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: flex;
+  width: 270px;
+}
+
+.frame-6 .frame-6-1 {
+  align-items: flex-end;
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--black);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-radius: 14px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  height: 172px;
+  overflow: hidden;
+  padding: 0 43px;
+  width: 270px;
+}
+
+.frame-6 .open-book {
+  align-self: flex-end;
+  height: 35px;
+  width: 35px;
+}
+
+.frame-6 .hc-tp {
+  height: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 8px;
+  width: 98px;
+}
+
+.frame-6 .rectangle-283 {
+  align-self: center;
+  background-color: var(--cultured-pearl);
+  border: 1px solid;
+  border-color: var(--black-2);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #0000001a;
+  height: 25px;
+  margin-left: 12px;
+  margin-top: 1.17px;
+  width: 25px;
+}
+
+.frame-6 .icon-home {
+  align-self: flex-end;
+  height: 35px;
+  width: 35px;
+}
+
+.frame-6 .name {
+  height: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 8px;
+  width: 109px;
+}
+
+.frame-6 .rectangle-283-1 {
+  align-self: center;
+  margin-left: 1px;
+  margin-top: 1.17px;
+}
+
+.frame-6 .group-99 {
+  gap: 8px;
+}
+
+.frame-6 .diamond-care {
+  align-self: flex-end;
+  height: 35px;
+  width: 35px;
+}
+
+.frame-6 .overlap-group {
+  height: 35px;
+  position: relative;
+  width: 135px;
+}
+
+.frame-6 .lm-p {
+  height: 35px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 117px;
+}
+
+.frame-6 .rectangle-283-2 {
+  left: 110px;
+  position: absolute;
+  top: 6px;
+}
+
+.frame-6 .group {
+  align-items: flex-start;
+  display: flex;
+  height: 36px;
+  min-width: 180px;
+}
+
+.frame-6 .rectangle-283-3 {
+  background-color: var(--cultured-pearl);
+  border: 1px solid;
+  border-color: var(--black-2);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px #0000001a;
+  height: 25px;
+  width: 25px;
+}

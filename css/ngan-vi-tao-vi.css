@@ -1,0 +1,574 @@
+/* screen - ngan-vi-tao-vi */
+
+.ngan-vi-tao-vi {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  width: 1440px;
+}
+
+.ngan-vi-tao-vi .overlap-group9 {
+  align-items: center;
+  background-color: var(--resolution-blue);
+  display: flex;
+  flex-direction: column;
+  min-height: 900px;
+  padding: 20px 0;
+  width: 100px;
+}
+
+.ngan-vi-tao-vi .nav-bar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 308px;
+  width: 50px;
+}
+
+.ngan-vi-tao-vi .icon-home {
+  cursor: pointer;
+  height: 38px;
+  width: 38px;
+}
+
+.ngan-vi-tao-vi .nav-bar-item {
+  height: 32px;
+  margin-top: 54px;
+  width: 32px;
+}
+
+.ngan-vi-tao-vi .wallet {
+  align-items: center;
+  background-color: #4e8bd7;
+  border-radius: 12px;
+  display: flex;
+  height: 50px;
+  margin-top: 48px;
+  min-width: 50px;
+  padding: 0 6px;
+}
+
+.ngan-vi-tao-vi .wallet-1 {
+  height: 38px;
+  width: 38px;
+}
+
+.ngan-vi-tao-vi .ticket {
+  background-image: url(../img/ticket@2x.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 32px;
+  margin-top: 42px;
+  width: 32px;
+}
+
+.ngan-vi-tao-vi .bottom {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-top: 382px;
+  min-height: 93px;
+  width: 38px;
+}
+
+.ngan-vi-tao-vi .headset {
+  height: 38px;
+  width: 38px;
+}
+
+.ngan-vi-tao-vi .logout {
+  height: 38px;
+  width: 38px;
+}
+
+.ngan-vi-tao-vi .overlap-group11 {
+  height: 900px;
+  position: relative;
+  width: 1322px;
+}
+
+.ngan-vi-tao-vi .overlap-group10 {
+  height: 900px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1322px;
+}
+
+.ngan-vi-tao-vi .info-column {
+  align-items: center;
+  display: flex;
+  gap: 36px;
+  height: 900px;
+  left: 0;
+  padding: 24px 0;
+  position: absolute;
+  top: 0;
+  width: 473px;
+}
+
+.ngan-vi-tao-vi .flex-col {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  min-height: 851px;
+  width: 406px;
+}
+
+.ngan-vi-tao-vi .sv-pay-removebg-preview-3 {
+  height: 59px;
+  margin-right: 19.0px;
+  object-fit: cover;
+  width: 363px;
+}
+
+.ngan-vi-tao-vi .overlap-group1 {
+  align-items: flex-end;
+  background-image: url(../img/individual@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  min-height: 267px;
+  padding: 45px 62.0px;
+  width: 406px;
+}
+
+.ngan-vi-tao-vi .xin-cho {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-weight: 500;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 67.0px;
+  margin-top: 79px;
+  text-align: center;
+  width: 149px;
+}
+
+.ngan-vi-tao-vi .surname {
+  align-self: flex-start;
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  height: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 2px;
+  text-align: center;
+  width: 281px;
+}
+
+.ngan-vi-tao-vi .s-d {
+  align-items: flex-start;
+  display: flex;
+  gap: 13px;
+  height: 22px;
+  margin-right: 62.0px;
+  margin-top: 14px;
+  min-width: 155px;
+}
+
+.ngan-vi-tao-vi .overlap-group-1 {
+  align-self: flex-end;
+  height: 21px;
+  position: relative;
+  width: 117px;
+}
+
+.ngan-vi-tao-vi .s-d-1 {
+  color: #00000099;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: italic;
+  font-weight: 400;
+  height: 20px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 60px;
+}
+
+.ngan-vi-tao-vi .text-1 {
+  color: #00000099;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: italic;
+  font-weight: 400;
+  left: 58px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 60px;
+}
+
+.ngan-vi-tao-vi .hide {
+  height: 20px;
+  width: 21px;
+}
+
+.ngan-vi-tao-vi .overlap-group3 {
+  background-image: url(../img/ho-t---ng-1@2x.png);
+  background-size: 100% 100%;
+  height: 403px;
+  margin-top: 5px;
+  position: relative;
+  width: 406px;
+}
+
+.ngan-vi-tao-vi .ellipse-303 {
+  background-color: var(--white);
+  border: 0.5px dashed;
+  border-color: var(--black);
+  border-radius: 28.5px;
+  height: 57px;
+  left: 28px;
+  position: absolute;
+  top: 296px;
+  width: 57px;
+}
+
+.ngan-vi-tao-vi .icon-plus {
+  height: 45px;
+  left: 34px;
+  position: absolute;
+  top: 302px;
+  width: 45px;
+}
+
+.ngan-vi-tao-vi .overlap-group2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px #00298766;
+  display: flex;
+  gap: 3px;
+  height: 92px;
+  margin-right: 4.0px;
+  margin-top: 13px;
+  min-width: 378px;
+  padding: 5px 13.7px;
+}
+
+.ngan-vi-tao-vi .ringer-volume {
+  height: 81px;
+  width: 74px;
+}
+
+.ngan-vi-tao-vi .flex-col-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 66px;
+  width: 202px;
+}
+
+.ngan-vi-tao-vi .dch-v-khch-hng-247 {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 202px;
+}
+
+.ngan-vi-tao-vi .phone {
+  color: var(--resolution-blue);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  height: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1.83px;
+  text-align: center;
+  width: 190px;
+}
+
+.ngan-vi-tao-vi .airport {
+  height: 30px;
+  margin-top: 334.0px;
+  width: 16px;
+}
+
+.ngan-vi-tao-vi .thng-tin-ngn-v {
+  color: var(--resolution-blue);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  height: 30px;
+  left: 464px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 108px;
+  width: 858px;
+}
+
+.ngan-vi-tao-vi .group-92 {
+  top: 201px;
+  width: 786px;
+}
+
+.ngan-vi-tao-vi .hn-mc-ti-a {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 31px;
+  width: 174px;
+}
+
+.ngan-vi-tao-vi .overlap-group4 {
+  align-items: flex-end;
+  align-self: center;
+  background-color: var(--white);
+  border-color: var(--black);
+  border-radius: 14px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: -5px 4px 4px #00298766;
+  display: flex;
+  gap: 476px;
+  height: 64px;
+  justify-content: flex-end;
+  margin-left: 1.42px;
+  min-width: 772px;
+  padding: 12px 0.6px;
+}
+
+.ngan-vi-tao-vi .phone-1 {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-weight: 500;
+  height: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 191px;
+}
+
+.ngan-vi-tao-vi .vn {
+  color: var(--black-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-weight: 600;
+  height: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 86px;
+}
+
+.ngan-vi-tao-vi .group-93 {
+  gap: 2px;
+  top: 318px;
+  width: 784px;
+}
+
+.ngan-vi-tao-vi .ngy-d-nh-rt-v {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+  width: 221px;
+}
+
+.ngan-vi-tao-vi .overlap-group5 {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: var(--white);
+  border-color: var(--black);
+  border-radius: 14px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: -5px 4px 4px #00298766;
+  display: flex;
+  gap: 44px;
+  height: 64px;
+  margin-right: 4.0px;
+  min-width: 772px;
+  padding: 7px 13.8px;
+}
+
+.ngan-vi-tao-vi .x940-am-tuesday-20032022 {
+  align-self: center;
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  height: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 3.0px;
+  width: 652px;
+}
+
+.ngan-vi-tao-vi .pay-date {
+  height: 48px;
+  width: 48px;
+}
+
+.ngan-vi-tao-vi .group-94 {
+  gap: 2px;
+  top: 435px;
+  width: 784px;
+}
+
+.ngan-vi-tao-vi .tn-v {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+  width: 221px;
+}
+
+.ngan-vi-tao-vi .overlap-group {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: var(--white);
+  border-color: var(--black);
+  border-radius: 14px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: -5px 4px 4px #00298766;
+  display: flex;
+  height: 64px;
+  margin-right: 4.0px;
+  min-width: 772px;
+  padding: 13px 13.8px;
+}
+
+.ngan-vi-tao-vi .tn-v-1 {
+  height: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 652px;
+}
+
+.ngan-vi-tao-vi .group-96 {
+  gap: 2px;
+  top: 669px;
+  width: 784px;
+}
+
+.ngan-vi-tao-vi .lu {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+  width: 221px;
+}
+
+.ngan-vi-tao-vi .ghi-lu-ca-bn-ti-y {
+  height: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 652px;
+}
+
+.ngan-vi-tao-vi .group-95 {
+  gap: 2px;
+  top: 552px;
+  width: 275px;
+}
+
+.ngan-vi-tao-vi .mc-ch {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 29px;
+  width: 135px;
+}
+
+.ngan-vi-tao-vi .overlap-group8 {
+  align-items: center;
+  background-color: var(--white);
+  border-color: var(--black);
+  border-radius: 14px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: -5px 4px 4px #00298766;
+  display: flex;
+  height: 64px;
+  margin-left: 2.88px;
+  min-width: 270px;
+  padding: 13px 42.1px;
+}
+
+.ngan-vi-tao-vi .icon-plane {
+  height: 35px;
+  margin-bottom: 1.0px;
+  width: 35px;
+}
+
+.ngan-vi-tao-vi .du-lch {
+  align-self: flex-start;
+  height: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 8px;
+  width: 104px;
+}
+
+.ngan-vi-tao-vi .sort-down {
+  background-image: url(../img/sort-down@2x.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+  height: 30px;
+  margin-bottom: 2.0px;
+  width: 30px;
+}
+
+.ngan-vi-tao-vi .thm-v-button {
+  align-items: flex-end;
+  background-color: var(--resolution-blue);
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  height: 63px;
+  left: 697px;
+  min-width: 315px;
+  padding: 5px 67px;
+  position: absolute;
+  top: 800px;
+}
+
+.ngan-vi-tao-vi .thm-v {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 49px;
+  text-align: center;
+  width: 163px;
+}
+
+.ngan-vi-tao-vi .group {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 441px;
+  min-height: 95px;
+  position: absolute;
+}
