@@ -1,79 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>SVP - Dùng truớc trả sau</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="HTML5 website template" />
-    <meta name="keywords" content="global, template, html, sass, jquery" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://animaproject.s3.amazonaws.com/home/favicon.png"
+    />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/globals.css" />
   </head>
-  <body>
-    <div class="mua-truoc-tra-sau screen">
-      <div class="flex-row flex">
-        <div class="overlap-group5">
-          <div class="nav-bar">
-            <div class="overlap-group">
-              <img class="home" src="assets/img/home.svg" alt="Home" />
-            </div>
-            <img class="vector" src="assets/img/vector-1.svg" alt="Vector" />
-            <img class="vector-1" src="assets/img/vector.svg" alt="Vector" />
-            <img class="wallet" src="assets/img/wallet.png" alt="wallet" />
-            <img class="ticket" src="assets/img/ticket.png" alt="ticket" />
-          </div>
-          <div class="bottom">
-            <img class="headset" src="assets/img/headset.png" alt="Headset" />
-            <img class="logout" src="assets/img/logout.png" alt="Logout" />
-          </div>
-        </div>
-        <div class="info-column">
-          <div class="overlap-group2">
-            <h1 class="xin-cho valign-text-middle">Xin chào</h1>
-            <div class="surname valign-text-middle">NGUYEN ANH KHOA</div>
-            <p class="ln-thanh-ton-gn-n valign-text-middle">
-              Lần thanh toán gần nhất<br />23-81- 2023&nbsp;&nbsp;16:23:54.875
-            </p>
-          </div>
-          <div class="group-container">
-            <div class="group-21">
-              <div
-                class="ti-khon-thanh-ton-0824589005 valign-text-middle poppins-medium-black-16px"
-              >
-                <span
-                  ><span class="poppins-medium-black-16px"
-                    >Tài khoản thanh toán<br /></span
-                  ><span class="span">0824589005</span></span
-                >
-              </div>
-              <div class="group-20">
+  <body style="margin: 0; background: #ffffff">
+    <input
+      type="hidden"
+      id="anPageName"
+      name="page"
+      value="mua-truoc-tra-sau"
+    />
+    <div class="container-center-horizontal">
+      <div class="mua-truoc-tra-sau screen">
+        <div class="flex-row flex">
+          <div class="overlap-group5">
+            <div class="nav-bar">
+              <div class="overlap-group">
                 <img
-                  class="forward"
-                  src="assets/img/forward@2x.png"
-                  alt="Forward"
+                  class="icon-home"
+                  src="assets/img/home.png"
+                  alt="icon-home"
                 />
               </div>
+              <img
+                class="icon-cart"
+                src="assets/img/vector-1.svg"
+                alt="icon-cart"
+              />
+              <img class="vector" src="assets/img/vector.svg" alt="Vector" />
+              <img class="wallet" src="assets/img/wallet.png" alt="Wallet" />
             </div>
-            <div class="overlap-group-1">
-              <div class="group-22">
-                <div class="flex-row-1">
-                  <div class="hot-ng">
-                    <div
-                      class="s-d valign-text-middle poppins-medium-black-16px"
-                    >
-                      Số dư
-                    </div>
-                    <div class="flex-row-2">
-                      <img
-                        class="hide"
-                        src="assets/img/hide@2x.png"
-                        alt="Hide"
-                      />
-                      <div class="text-1 valign-text-middle"></div>
-                      *********
-                    </div>
+            <img class="ticket" src="assets/img/ticket.png" alt="Ticket" />
+            <div class="bottom">
+              <img class="headset" src="assets/img/headset.png" alt="Headset" />
+              <img class="logout" src="assets/img/logout.png" alt="Logout" />
+            </div>
+          </div>
+          <div class="info-column">
+            <div class="overlap-group2">
+              <div class="individual">
+                <div class="icon">
+                  <img
+                    class="icon-user"
+                    src="assets/img/user.png"
+                    alt="icon-user"
+                  />
+                </div>
+              </div>
+              <p class="ln-thanh-ton-gn-n valign-text-middle">
+                <span
+                  ><span
+                    >Lần thanh toán gần nhất<br />23-01-2023&nbsp;&nbsp;16:23:54.875</span
+                  >
+                </span>
+              </p>
+              <h1 class="xin-cho valign-text-middle">
+                <span><span>Xin chào</span> </span>
+              </h1>
+              <div class="surname valign-text-middle">
+                <span><span>NGUYEN ANH KHOA</span> </span>
+              </div>
+            </div>
+            <div class="overlap-group1">
+              <div class="hot-ng">
+                <div class="hot-ng-1 hot-ng-3">
+                  <p class="danh-sch-ti-khon-lin-kt valign-text-middle">
+                    <span><span>Danh sách tài khoản liên kết</span> </span>
+                  </p>
+                  <div class="chi-tit valign-text-middle">
+                    <span><span>Chi tiết</span> </span>
                   </div>
                 </div>
-                <div class="group-20-1">
+                <div class="lch-s-giao-dch"><span>Lịch sử giao dịch</span></div>
+              </div>
+              <div class="group-21">
+                <div
+                  class="ti-khon-thanh-ton-0824589005 valign-text-middle poppins-medium-black-16px"
+                >
+                  <span
+                    ><span class="poppins-medium-black-16px"
+                      >Tài khoản thanh toán<br /></span
+                    ><span class="span-1">0824589005</span>
+                  </span>
+                </div>
+                <div class="group-20">
                   <img
                     class="forward"
                     src="assets/img/forward@2x.png"
@@ -81,74 +102,117 @@
                   />
                 </div>
               </div>
-              <div class="group-21-1">
-                <img
-                  class="forward"
-                  src="assets/img/forward@2x.png"
-                  alt="Forward"
-                />
+              <div class="group-22">
+                <div class="flex-row-1">
+                  <div class="hot-ng-2 hot-ng-3">
+                    <div
+                      class="s-d valign-text-middle poppins-medium-black-16px"
+                    >
+                      <span
+                        ><span class="poppins-medium-black-16px">Số dư</span>
+                      </span>
+                    </div>
+                    <div class="flex-row-2">
+                      <img
+                        class="hide"
+                        src="assets/img/hide@2x.png"
+                        alt="Hide"
+                      />
+                      <div class="text-1 valign-text-middle">
+                        <span><span>**********</span> </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group-20-1">
+                    <img
+                      class="forward"
+                      src="assets/img/forward@2x.png"
+                      alt="Forward"
+                    />
+                  </div>
+                </div>
+                <div class="group-21-1">
+                  <img
+                    class="forward"
+                    src="assets/img/forward@2x.png"
+                    alt="Forward"
+                  />
+                </div>
+              </div>
+              <img
+                class="icon-clock"
+                src="assets/img/time-machine@2x.png"
+                alt="icon-clock"
+              />
+            </div>
+            <div class="overlap-group3">
+              <img
+                class="ringer-volume"
+                src="assets/img/ringer-volume@2x.png"
+                alt="Ringer Volume"
+              />
+              <div class="flex-col flex">
+                <p class="dch-v-khch-hng-247 valign-text-middle">
+                  <span><span>Dịch vụ khách hàng 24/7</span> </span>
+                </p>
+                <div class="phone valign-text-middle">
+                  <span><span>1900 54 54 13</span> </span>
+                </div>
               </div>
             </div>
-            <img
-              class="time-machine"
-              src="assets/img/time-machine@2x.png"
-              alt="Time Machine"
-            />
           </div>
-          <div class="overlap-group3">
-            <img
-              class="ringer-volume"
-              src="assets/img/ringer-volume@2x.png"
-              alt="Ringer Volume"
-            />
-            <div class="flex-col flex">
-              <p class="dch-v-khch-hng-247 valign-text-middle">
-                Dich vụ khách hàng 24/7
-              </p>
-              <div class="phone valign-text-middle">1900 54 54 13</div>
+        </div>
+        <div class="flex-col-1">
+          <img
+            class="sv-pay-removebg-preview-3"
+            src="assets/img/svpay-removebg-preview-3@2x.png"
+            alt="SVPay-removebg-preview 3"
+          />
+          <p class="cho-mng-bn-n-v valign-text-middle">
+            <span
+              ><span
+                >Chào mừng bạn đến với tính năng dùng trước trả sau của
+                SVPay</span
+              >
+            </span>
+          </p>
+          <p class="tnh-nng-dng-trc poppins-normal-black-18px">
+            <span class="poppins-normal-black-18px"
+              >Tính năng dùng trước - trả sau của SVPay là một tính năng vô cùng
+              mới và tiện lợi, bạn sẽ không ngờ đến khả năng của nó.</span
+            >
+          </p>
+          <p class="hy-cng-nhau-tm-hi poppins-normal-black-18px">
+            <span class="poppins-normal-black-18px"
+              >Hãy cùng nhau tìm hiểu thêm về tính năng này nào!!!</span
+            >
+          </p>
+          <div class="button">
+            <div class="bt-u valign-text-middle">
+              <span><span>Bắt đầu</span> </span>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="flex-col-1">
-        <img
-          class="sv-pay-removebg-preview-3"
-          src="assets/img/svpay-removebg-preview-3@2x.png"
-          alt="SVPay-removebg-preview 3"
-        />
-        <p class="cho-mng-bn-n-v valign-text-middle">
-          Chào mừng bạn đến với tính năng dùng trước trả sau của SVPay
-        </p>
-        <p class="tnh-nng-dng-trc poppins-normal-black-18px2">
-          Tính năng dùng trước - trả sau của SVPay là một tính năng vô cùng mới
-          và tiện lợi, bạn sẽ không ngờ đến khả năng của nó.
-        </p>
-        <p class="hy-cng-nhau-tm-hi poppins-normal-black-18px2">
-          Hãy cùng nhau tìm hiểu thêm về tính năng này nào !!!
-        </p>
-        <div class="button">
-          <div class="bt-u valign-text-middle">Båt dau</div>
-        </div>
-        <div class="overlap-group4">
-          <p class="tm-hiu-thm-v-chng-ti-ti-y">
-            Tìm hiểu thêm về chúng tôi tại đây
-          </p>
-          <div class="group-23">
-            <img
-              class="facebook"
-              src="assets/img/facebook@2x.png"
-              alt="Facebook"
-            />
-
-            <img
-              class="instagram-logo"
-              src="assets/img/instagram-logo@2x.png"
-              alt="instagram logo"
-            /><img
-              class="discord"
-              src="assets/img/discord@2x.png"
-              alt="Discord"
-            />
+          <div class="overlap-group4">
+            <p class="tm-hiu-thm-v-chng-ti-ti-y">
+              <span>Tìm hiểu thêm về chúng tôi tại đây</span>
+            </p>
+            <div class="group-23">
+              <img
+                class="icon-facebook"
+                src="assets/img/facebook@2x.png"
+                alt="icon-facebook"
+              />
+              <img
+                class="icon-instagram"
+                src="assets/img/instagram-logo@2x.png"
+                alt="icon-instagram"
+              />
+              <img
+                class="discord"
+                src="assets/img/discord@2x.png"
+                alt="Discord"
+              />
+            </div>
           </div>
         </div>
       </div>
