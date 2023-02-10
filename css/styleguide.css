@@ -60,3 +60,10 @@
   font-style: normal;
   font-weight: 500;
 }
+.poppins-semi-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
