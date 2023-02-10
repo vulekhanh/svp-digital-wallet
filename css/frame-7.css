@@ -1,0 +1,61 @@
+/* screen - frame-7 */
+
+.frame-7 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  width: 797px;
+}
+
+.frame-7 .frame-7-1 {
+  align-items: flex-end;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: -11px 10px 4px #00298780;
+  display: flex;
+  height: 313px;
+  overflow: hidden;
+  padding: 39px 40px;
+  width: 797px;
+}
+
+.frame-7 .overlap-group {
+  height: 232px;
+  margin-left: 1px;
+  position: relative;
+  width: 716px;
+}
+
+.frame-7 .m-u-i-c-gi-qua-sms-ca-bn {
+  color: #000000;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  height: 133px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 99px;
+  width: 716px;
+}
+
+.frame-7 .check-icons {
+  align-items: center;
+  background-color: #94ddac;
+  border-radius: 50px;
+  display: flex;
+  height: 100px;
+  left: 308px;
+  min-width: 100px;
+  padding: 0 10px;
+  position: absolute;
+  top: 0;
+}
+
+.frame-7 .check {
+  height: 80px;
+  object-fit: cover;
+  width: 80px;
+}
