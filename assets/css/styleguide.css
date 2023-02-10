@@ -10,7 +10,6 @@
   --font-family-poppins: "Poppins", Helvetica;
 
   --font-size-l: 14px;
-  --font-size-m: 13px;
   --font-size-s: 10px;
   --font-size-xl: 16px;
   --font-size-xxl: 18px;
@@ -59,6 +58,14 @@
   color: var(--black);
   font-family: var(--font-family-poppins);
   font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.poppins-medium-black-10px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: 10px;
   font-style: normal;
   font-weight: 500;
 }
