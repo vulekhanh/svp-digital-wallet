@@ -8,6 +8,14 @@
 
   --font-family-playfair_display: "Playfair Display", Helvetica;
   --font-family-poppins: "Poppins", Helvetica;
+
+  --font-size-l: 14px;
+  --font-size-m: 13px;
+  --font-size-s: 10px;
+  --font-size-xl: 16px;
+  --font-size-xxl: 18px;
+  --font-size-xxxl: 20px;
+  --font-size-xxxxl: 28px;
 }
 .poppins-medium-black-20px {
   color: var(--black);
@@ -46,4 +54,11 @@
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
+}
+.poppins-medium-black-13px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
 }
