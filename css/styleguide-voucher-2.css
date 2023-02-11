@@ -1,0 +1,23 @@
+:root { 
+  --black: #000000;
+  --black-2: #00000080;
+  --resolution-blue: #00298780;
+ 
+  --font-size-l: 14px;
+  --font-size-m: 12px;
+  --font-size-s: 10px;
+  --font-size-xl: 16px;
+  --font-size-xxl: 18px;
+  --font-size-xxxl: 20px;
+  --font-size-xxxxl: 28px;
+ 
+  --font-family-overpass: "Overpass", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.poppins-medium-black-16px {
+  color: var(--black-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
