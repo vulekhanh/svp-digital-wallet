@@ -1,0 +1,47 @@
+:root { 
+  --alizarin-crimson: #ec2f2f;
+  --black: #000000;
+  --black-2: #00000080;
+  --resolution-blue: #002987;
+  --white: #ffffff;
+ 
+  --font-size-l: 25px;
+  --font-size-m: 20px;
+  --font-size-s: 16px;
+  --font-size-xl: 27px;
+  --font-size-xs: 14px;
+  --font-size-xxl: 28px;
+  --font-size-xxxl: 30px;
+ 
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.poppins-semi-bold-white-20px {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-semi-bold-alizarin-crimson-20px {
+  color: var(--alizarin-crimson);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-semi-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-medium-black-25px {
+  color: var(--black-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}

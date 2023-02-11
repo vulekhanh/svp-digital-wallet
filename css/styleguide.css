@@ -95,3 +95,113 @@
   font-style: normal;
   font-weight: 500;
 }
+.poppins-semi-bold-black-35px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-semi-bold-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-semi-bold-black-14px {
+  color: var(--black-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-bold-resolution-blue-10px {
+  color: var(--resolution-blue-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-bold-resolution-blue-14px {
+  color: var(--resolution-blue-3);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-semi-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-medium-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-semi-bold-black-35px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-semi-bold-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-semi-bold-black-14px {
+  color: var(--black-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-bold-resolution-blue-10px {
+  color: var(--resolution-blue-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-bold-resolution-blue-14px {
+  color: var(--resolution-blue-3);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-semi-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.poppins-medium-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
